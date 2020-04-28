@@ -57,6 +57,6 @@ function flipPairs(input){
    }
    return string
 }
-
+console.log(flipPairs('hello'))
 
 
