@@ -12,11 +12,16 @@ Hint: Recall typeof? If not: check it out on MDN. :-)
 /*
 2- Write a function called  listLengthOfAllWords that takes an array of words (strings), 
 and returns an array of numbers representing the length of each word.
+<<<<<<< HEAD
 
 Calling your function should result in:
 
 listLengthOfAllWords(['hello', 'world', 'I', 'can', 'code']); //[5, 5, 1, 3, 4];
 
+=======
+Calling your function should result in:
+listLengthOfAllWords(['hello', 'world', 'I', 'can', 'code']); //[5, 5, 1, 3, 4];
+>>>>>>> b369324663666c202c2ce70c67e17c2770bc2450
 */
 
 /*
@@ -26,5 +31,9 @@ Example:
 var input = 'check out how interesting this problem is, it\'s insanely interesting!';
 var output = flipPairs(input);
 console.log(output); // --> hcce kuo toh wnietertsni ghtsip orlbmei ,si 't sniasenyli tnreseitgn!
+<<<<<<< HEAD
 
 
+=======
+ */
+>>>>>>> b369324663666c202c2ce70c67e17c2770bc2450

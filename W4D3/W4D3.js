@@ -22,11 +22,16 @@ loopAString('abcd');
   // d
 
 */
+
 function loopAString(string) {
-  // create an index variable
-  // create a loop which iterates over the input string
-  // log current string character to the console
-  // increment value of index variable
+  var counter = 0
+
+  while( counter < string.length ){
+    
+    console.log( string[counter] )
+
+    counter++
+  }
 }
 
 
@@ -36,5 +41,20 @@ function loopAString(string) {
 // reverseStr('hello'); "o1l2l3e4h"
 // Your code is here
 
+function reverseStr(string) {
+  var counter = string.length-1
+  var counter2= 0
+  var result = ""
+
+  while( counter >= 0 ){
+    
+    result += string[counter]+counter2 
+
+    counter2++
+    counter--
+  }
+
+  return result
+}
 
 
