@@ -8,6 +8,17 @@ countNumOfStrings(["There is only one string in this example"]); //1
 Hint: Recall typeof? If not: check it out on MDN. :-)
 */
 
+function countNumOfStrings(array){
+	var stringCounter = 0
+
+	for (var i =  0; i < array.length; i++) {
+		if (typeof array[i] === "string") {
+			stringCounter++
+		}
+	}
+
+	return stringCounter
+}
 
 /*
 2- Write a function called  listLengthOfAllWords that takes an array of words (strings), 
@@ -18,11 +29,22 @@ Calling your function should result in:
 
 listLengthOfAllWords(['hello', 'world', 'I', 'can', 'code']); //[5, 5, 1, 3, 4];
 
+
+
 =======
-Calling your function should result in:
-listLengthOfAllWords(['hello', 'world', 'I', 'can', 'code']); //[5, 5, 1, 3, 4];
->>>>>>> b369324663666c202c2ce70c67e17c2770bc2450
 */
+
+
+function listLengthOfAllWords(array) {
+	var newArr = []
+
+	for (var i = 0; i < array.length; i++) {
+		newArr.push( array[i].length )
+	}
+
+	return newArr
+}
+
 
 /*
 Write a function called flipPairs that takes a string a parameter 
@@ -36,4 +58,14 @@ console.log(output); // --> hcce kuo toh wnietertsni ghtsip orlbmei ,si 't snias
 
 =======
  */
->>>>>>> b369324663666c202c2ce70c67e17c2770bc2450
+
+function flipPairs(string) {
+	var newStr=""
+
+	for (var i = 0; i < string.length; i++) {
+		newStr += string[ (Math.floor(Math.random() * (string.length - 0)) + 0) ]
+	}
+
+	return newStr
+}
+
