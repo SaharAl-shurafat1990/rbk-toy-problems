@@ -11,3 +11,25 @@ Another example could be:
 
 { name: "Gelato", countryOfOrigin: "Italy", flavor: "Chocolate Chip" }
 */
+
+function favoriteDessert() {
+	var instances ={}
+
+	instances.name = name
+	instances.countryOfOrigin = countryOfOrigin
+	instances.favoriteTopping = favoriteTopping
+
+	return instances
+}
+
+function name(string) {
+	return this.name = string
+}
+
+function countryOfOrigin(string) {
+	return this.countryOfOrigin = string
+}
+
+function favoriteTopping(string) {
+	return this.favoriteTopping = string
+}
