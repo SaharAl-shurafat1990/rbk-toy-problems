@@ -11,3 +11,14 @@ Another example could be:
 
 { name: "Gelato", countryOfOrigin: "Italy", flavor: "Chocolate Chip" }
 */
+
+function favoriteDesssert(){
+   var arr=Array.from(arguments)
+   return {
+   	name:arr[0],
+   	countryOfOrigin:arr[1],
+   	flavor:arr[arr.length-1]
+   }
+}
+
+console.log(favoriteDesssert('Gelato','Italy','Chocolate Chip'))
