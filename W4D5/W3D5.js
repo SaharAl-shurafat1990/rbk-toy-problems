@@ -6,7 +6,13 @@ countNumOfStrings(["hello", "world", 5, true, {}]); //2
 countNumOfStrings(["foo", 2, 10, "bar", 5, false, {}, "baz"]); //3
 countNumOfStrings(["There is only one string in this example"]); //1
 Hint: Recall typeof? If not: check it out on MDN. :-)
-*/
+*/ 
+function countNumOfStrings(array){
+	var count =0;
+	if(typeof === string){
+
+	}
+}
 
 
 /*
@@ -17,7 +23,11 @@ Calling your function should result in:
 
 listLengthOfAllWords(['hello', 'world', 'I', 'can', 'code']); //[5, 5, 1, 3, 4];
 
-*/
+*/function listLengthOfAllWords(array){
+	for(var i =0; i<array.length ; i++){
+		return 
+	}
+}
 
 /*
 Write a function called flipPairs that takes a string a parameter 
