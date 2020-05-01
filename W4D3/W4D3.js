@@ -13,9 +13,6 @@ loopAString('nodeJS');
   // e
   // J
   // S
-  // done 
-  
- 
 
 loopAString('abcd');
 // console output:
