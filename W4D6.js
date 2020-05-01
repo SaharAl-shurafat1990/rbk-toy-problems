@@ -8,25 +8,11 @@ For example, one could return an object such as:
 Another example could be:
 { name: "Gelato", countryOfOrigin: "Italy", flavor: "Chocolate Chip" }*/
 function favoriteDessert() {
-    return {
-        d1 = {
-            name: "Flan",
-            ovenTemp: 350,
-            prepTime: "25 minutes + 50 minutes chilling"
-        },
-        d2 = {
-            name: "Gelato",
-            countryOfOrigin: "Italy",
-            flavor: "Chocolate Chip"
+    var Dessert = {}
+    Dessert.name = "Flan",
+        Dessert.ovenTemp = 350,
+        Dessert.prepTime = "25 minutes + 50 minutes chilling"
+    return Dessert
 
-
-        }
-        d3 = {
-            name: "cack",
-            ovenTemp: 350,
-            prepTime: "25 minutes + 50 minutes chilling"
-        }
-
-    }
 }
 var obj = favoriteDessert()
