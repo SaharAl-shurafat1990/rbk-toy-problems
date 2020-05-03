@@ -13,6 +13,9 @@ loopAString('nodeJS');
   // e
   // J
   // S
+  // done 
+  
+ solved
 
 loopAString('abcd');
 // console output:
